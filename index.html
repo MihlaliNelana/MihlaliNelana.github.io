@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>  <!-- The <head> element is a container for all the head elements.
+           The <head> element can include a title for the document, scripts, styles, meta information, and more. -->
+  <meta charset="UTF-8">
+  <title>Miku Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Caudex' rel='stylesheet'>
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="/public/script.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="typeWriter()">
+    <nav>
+        <ul id='navbar'>
+            <li><a href="#welcome-section">ABOUT</a></li>
+            <li><a href="#projects">WORK</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div id="welcome-section" class="intro"> 
+        <h1 id="demo"></h1>
+        <strong>
+            <p>A web developer</p>
+            <p>Passionate. Leader with ambition. Strong. Driven.</p>
+        </strong>
+        <div class="info">
+                <h2>Miku</h2>
+                <strong><p>Fun Fact: Mihlali gave himself the nickname Miku which is a distinctive meaning for absolutely nothing.</p></strong>
+                <br>
+                <strong></strong><p>He has a lot of meanings for it for different people</p></strong>
+        </div>
+    </div>
+    
+    <div id="projects" class="work">
+        <h2 class="work-header">These are some of my projects..</h2>
+        <p>Have a look...</p>
+        
+        
+        <a href="https://github.com/MihlaliNelana/MemoryFlipCardGame" class="project project-tile">
+            <img class="project-pic" src="/public/images/githubicon.png" alt="project">
+            <div class="project-title">Memory Flip Card Game</div>
+        </a>
+        <a href="https://github.com/MihlaliNelana/Simple-Calculator" class="project project-tile">
+            <img class="project-pic" src="/public/images/githubicon.png" alt="project">
+            <div class="project-title">Simple Calculator</div>
+        </a>
+        <a href="https://github.com/MihlaliNelana/formApp" class="project project-tile">
+            <img class="project-pic" src="/public/images/githubicon.png" alt="project">
+            <div class="project-title">Simple node.js Form</div>
+        </a>
+        <a href="https://github.com/MihlaliNelana/WeatherApp" target="_blank" class="project project-tile">
+            <img class="project-pic" src="/public/images/githubicon.png" alt="project">
+            <div class="project-title">Weather API</div>
+        </a>
+        
+        <a href="#" class="project project-tile" onclick="noRepo()">
+            <img class="project-pic" src="/public/images/projectbg2.png" alt="project">
+            <div class="project-title"></div>
+        </a>
+        <a href="#" class="project project-tile" onclick="noRepo()">
+            <img class="project-pic" src="/public/images/projectbg1.png" alt="project">
+            <div class="project-title"></div>
+        </a>
+        <a href="https://github.com/MihlaliNelana" class="show-all" target="_blank">Show all</a>
+    </div>
+    
+    <div id="contact" class="contact">
+        <a href="/public/docs/Mihlali Nelana.pdf" download>
+        <button class="btn"><i class="fa fa-download"></i> Download CV</button>
+        </a>
+        
+        <div class="header">
+            <h1>Let's work together...</h1>
+            <p>How do you take your coffee?</p>
+        </div>
+        <a href="https://www.facebook.com/mih.miku" target="_blank" class="contact-details">Facebook</a>
+        <a id='profile-link' href="https://github.com/MihlaliNelana" target="_blank" class="contact-details">GitHub</a>
+        <a href="https://twitter.com/Miku_Nelana" target="_blank" class="contact-details">Twitter</a>
+        <a href="mailto:mihlali.nelana@gmail.com?Subject=Portfolio%20Viewer" class="contact-details">Send Mail</a>
+        <a href="tel:0655143385" class="contact-details">Call me</a>
+    </div>
+    
+<footer>Mihlali Nelana Portfolio 
+  <p>&copy; Created by <a href="https://twitter.com/Miku_Nelana" target="_blank">Mihlali Miku Nelana</a></p>
+</footer>
+    
+</body>
+</html>

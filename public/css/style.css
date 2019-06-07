@@ -1,0 +1,229 @@
+/**
+ * Author:    Mihlai Miku Nelana
+ * Created:   06.06.2019
+ **/
+
+html,
+body {
+  font-family: 'Caudex';font-size: 15px;
+  text-align: center;                   
+}
+
+* {
+  margin: 0;    
+  padding: 0;   
+}
+
+.intro {
+  top: 0;
+  background-image: url(/public/images/intro-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+.intro h1{
+  color: black;
+  margin-top: 50px;
+}
+
+.intro p {
+  color:rgb(160, 119, 57);
+  font-size: 120%;
+}
+
+.info {
+	background-color: rgba(255, 255, 255, 0.7);
+	color: #333;
+	padding: 20px 15px;
+	position: static;
+	opacity: 0.9;
+	top: 80px;
+	left: 40px;
+	text-align: center;
+	width: 300px;
+  max-width: 100%;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.info h1 {
+	margin: 10px 0;
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;  
+  background-color: lightgrey;
+  opacity: 0.6;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  
+}
+
+nav ul li a {
+  color:rgb(160, 119, 57);
+  text-decoration: none;
+  }
+
+nav ul li a:hover {
+  color: teal;
+}*
+
+.work {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
+.work p{
+  color: rgb(49, 99, 99);
+}
+
+.work .work-header {
+  margin-top: 50px;
+  color:rgba(0, 128, 128, 0.938);
+  font-weight: normal;
+}
+
+.project {
+  text-decoration: none;
+  color: darkslategray;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+ }
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+  font-weight: bold;
+}
+
+.show-all {
+  text-decoration: none;
+  display: block;         
+  width: 200px;           
+  height: 30px;          
+  margin: 20px auto 90px; 
+  background: #e0ebe8;
+  color: teal;
+  font-weight: bold;        
+  font-size: 1em;           
+  border: 2px solid teal;
+  border-radius: 4px;       
+  cursor: pointer;          
+  padding-top: 10px;
+}
+
+.show-all:hover {
+  background: #E4F1FE;
+  color: green;
+}
+
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 20px;
+  }
+
+  .project {
+    margin: 40px 0;
+  }
+}
+.contact {
+  background-image: url(/public/images/contact-background.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 160px;
+}
+
+.contact p{
+  color: teal
+}
+.contact h1{
+  color: #72a5a5;
+}
+.header {
+  padding: 160px 0 110px; /*the 3 values indicates padding to the top, right and bottom of the element*/
+}
+
+/* Download button */
+
+/* Style buttons */
+.btn {
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: DodgerBlue;
+}
+
+.contact-details {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 35px 45px 35px;
+  list-style-type: none;     
+  border: 2px solid teal;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;         
+  background: #e0ebe8;
+  color: #008080;
+  text-decoration: none;
+}
+
+.contact-details:hover {    
+  background: #E4F1FE;
+  color:rgb(0, 41, 128);
+}
+
+
+footer {
+  padding: 20px;
+  background: rgb(61, 66, 71);
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+
+@media only screen and (max-width: 367px) {
+  .contact-details {
+    border: 2px solid #90C695;
+    border-radius: 0;
+    width: 90px;
+    height: 20px;
+    padding: 10px;
+    line-height: normal;
+  }
+}
